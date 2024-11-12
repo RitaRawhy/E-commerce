@@ -12,7 +12,7 @@ namespace APIDemo.Controllers
     {
         private readonly IPaymentService _paymentService;
         private readonly ILogger<Paymentscontroller> _logger;
-        private const string WHSecret = "whsec_7a623f7ce35ee51bc8e97030ec9370c98bc1ecb9cde17b07080e9c4ea392a18e";
+        private const string WHSecret = "Your Stripe Webhook Secret";
 
         public Paymentscontroller(
             IPaymentService paymentService ,
